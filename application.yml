@@ -7,7 +7,6 @@ eureka:
   instance:
     hostname: localhost
     
-    
 microservice:
   payment-service:
     endpoints:
@@ -16,7 +15,7 @@ microservice:
   order-service:
     endpoints:
       endpoint:
-        uri: http://ORDER-SERVICE/order/bookOrder 
+        uri: http://ORDER-SERVICE/order/bookOrder    
    book-crud-service:
     endpoints:
       endpoint:
