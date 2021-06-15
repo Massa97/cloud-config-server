@@ -16,8 +16,5 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder    
-   book-crud-service:
-    endpoints:
-      endpoint:
-        uri: http://BOOK-CRUD-SERVICE/bookCrud/books
+
    
